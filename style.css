@@ -1,0 +1,43 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+  }
+  form {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 5px;
+    background-color: lightgray;
+    height: 250px;
+    width: 800px;
+  }
+  .addbtn { 
+    background-color: blue;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    margin: 3px;
+    border: 1px solid;
+    border-radius: 15px;
+    height: 35px;
+    width: 10rem;
+  }
+  .cancelbtn {
+    background-color: white;
+    color: black;
+    width: 10rem;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+  .btn {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
